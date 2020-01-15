@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent><ds:Signature Id="SignatureSP"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Q0IqQIj4mIKfgxPJ4lDmnNp4x8g=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Innt40NtuUoi9Dng+KuETLXo/wVacHT0zRKuxaNKsflWvrTpGS7g/TPaw16f5YHIfhFZR+L+jjcCv+fnbNGNj9dv+FVT5DJieOf0pjWzOP04o4DFwKQGzwJhMUwWoLikx01+kRtNnEAorkHw5VWWk6Zx9MSxnvej1S2YS3KHTavMcTN4MrwjGavWOnj2uGwQtzWblzpAuPFIQooZrbGcC/yxv8Y8BnNICP51LfKzqP4R0dEnoKPcslVskz46yRz3z4N45qRZJZhPU4aOfEbKBSawZJEs+hDLJREvCRIXvRt/ArtQT91Iib5EKwovioc02/8Uvgkf1xtB1SZ9Aybl6Q==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+   <cbc:CustomizationID>2.0</cbc:CustomizationID>
+   <cbc:ID>B001-00000049</cbc:ID>
+   <cbc:IssueDate>2019-05-15</cbc:IssueDate>
+   <cbc:IssueTime>00:00:00</cbc:IssueTime>
+   <cbc:DueDate>2019-05-15</cbc:DueDate>
+   <cbc:InvoiceTypeCode listID="0101">03</cbc:InvoiceTypeCode>
+   <cbc:Note languageLocaleID="1000"><![CDATA[SON CINCO MIL CON 00/100]]></cbc:Note>
+   <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+   <cac:Signature>
+      <cbc:ID>20448351859</cbc:ID>
+      <cbc:Note>GREENTER</cbc:Note>
+      <cac:SignatoryParty>
+         <cac:PartyIdentification>
+            <cbc:ID>20448351859</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name><![CDATA[IMPORTACIONES GENERALES DEL SUR S.A.C.]]></cbc:Name>
+         </cac:PartyName>
+      </cac:SignatoryParty>
+      <cac:DigitalSignatureAttachment>
+         <cac:ExternalReference>
+            <cbc:URI>#20448351859</cbc:URI>
+         </cac:ExternalReference>
+      </cac:DigitalSignatureAttachment>
+   </cac:Signature>
+   <cac:AccountingSupplierParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeID="6">20448351859</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name><![CDATA[IMGESUR SAC]]></cbc:Name>
+         </cac:PartyName>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName><![CDATA[IMPORTACIONES GENERALES DEL SUR S.A.C.]]></cbc:RegistrationName>
+            <cac:RegistrationAddress>
+               <cbc:ID>211101</cbc:ID>
+               <cbc:AddressTypeCode>00001</cbc:AddressTypeCode>
+               <cbc:CitySubdivisionName>NONE</cbc:CitySubdivisionName>
+               <cbc:CityName>SAN ROMAN</cbc:CityName>
+               <cbc:CountrySubentity>PUNO</cbc:CountrySubentity>
+               <cbc:District>JULIACA</cbc:District>
+               <cac:AddressLine>
+                  <cbc:Line><![CDATA[Jr. Enrique Meiggs 103]]></cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:RegistrationAddress>
+         </cac:PartyLegalEntity>
+      </cac:Party>
+   </cac:AccountingSupplierParty>
+   <cac:AccountingCustomerParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeID="1">02440443</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName><![CDATA[MAMANI OJEDA MARIA ROSARIA]]></cbc:RegistrationName>
+            <cac:RegistrationAddress>
+               <cac:AddressLine>
+                  <cbc:Line><![CDATA[Jr. Enrique Meiggs 103]]></cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:RegistrationAddress>
+         </cac:PartyLegalEntity>
+      </cac:Party>
+   </cac:AccountingCustomerParty>
+   <cac:TaxTotal>
+           <cbc:TaxAmount currencyID="PEN">762.71</cbc:TaxAmount><cac:TaxSubtotal>
+         <cbc:TaxableAmount currencyID="PEN">4237.29</cbc:TaxableAmount>
+         <cbc:TaxAmount currencyID="PEN">762.71</cbc:TaxAmount>
+         <cac:TaxCategory>
+            <cac:TaxScheme>
+               <cbc:ID>1000</cbc:ID>
+               <cbc:Name>IGV</cbc:Name>
+               <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+            </cac:TaxScheme>
+         </cac:TaxCategory>
+      </cac:TaxSubtotal></cac:TaxTotal>
+   <cac:LegalMonetaryTotal>
+      <cbc:LineExtensionAmount currencyID="PEN">4237.29</cbc:LineExtensionAmount>
+         <cbc:TaxInclusiveAmount currencyID="PEN">5000.00</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="PEN">5000.00</cbc:PayableAmount>
+   </cac:LegalMonetaryTotal><cac:InvoiceLine>
+      <cbc:ID>1</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="NIU">1.0</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="PEN">4237.29</cbc:LineExtensionAmount>
+      <cac:PricingReference>
+         <cac:AlternativeConditionPrice>
+            <cbc:PriceAmount currencyID="PEN">5000.00</cbc:PriceAmount>
+            <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+         </cac:AlternativeConditionPrice>
+      </cac:PricingReference>
+      <cac:TaxTotal>
+         <cbc:TaxAmount currencyID="PEN">4237.29</cbc:TaxAmount>
+         <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="PEN">4237.29</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="PEN">762.71</cbc:TaxAmount>
+            <cac:TaxCategory>
+               <cbc:Percent>18.00</cbc:Percent>
+               <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+               <cac:TaxScheme>
+                  <cbc:ID>1000</cbc:ID>
+                  <cbc:Name>IGV</cbc:Name>
+                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+               </cac:TaxScheme>
+            </cac:TaxCategory>
+         </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <cac:Item>
+         <cbc:Description><![CDATA[TRIMOTO CARGA, MARCA:FULL MOTORS MODELO:FULL300TC4 COLOR:VERDE MOTOR:172MN01873013 CHASIS:LAZHCPZ16J1000037]]></cbc:Description>
+         <cac:SellersItemIdentification>
+            <cbc:ID>155795559838847588</cbc:ID>
+         </cac:SellersItemIdentification>
+      </cac:Item>
+      <cac:Price>
+         <cbc:PriceAmount currencyID="PEN">4237.29</cbc:PriceAmount>
+      </cac:Price>
+   </cac:InvoiceLine></Invoice>
